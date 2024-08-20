@@ -3,7 +3,7 @@ import cmath
 
 def complex_calculator(final_result):
     while True:
-        y = input("Enter an operation: ")
+        y = input("Enter an operation (square, log, cos, cos, sin, tan, cot, csc, sec, arc_cos, arc_sin, inverse_hcos, inverse_hsin, AC, stop): ")
     
         if y.lower() == "stop":
             break

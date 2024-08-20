@@ -6,7 +6,7 @@ def stats_calculator(final_result):
     print("List is - ", lst)
 
     while True:
-        m = input("Enter an operation: ")
+        m = input("Enter an operation (harmonic_mean, median, mean, high_median, low_median, mode, standart_dev, variance, stop): ")
         
         if m.lower() == "stop":
             break
